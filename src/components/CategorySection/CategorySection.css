@@ -1,0 +1,44 @@
+.category-section {
+  padding: 20px;
+}
+
+.category-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.category-image {
+  height: 60px;
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-card {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.video-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.video-title {
+  margin-top: 10px;
+  text-align: center;
+}
